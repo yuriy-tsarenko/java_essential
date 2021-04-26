@@ -9,18 +9,16 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Rectangle rectangle = new Rectangle();
         Scanner scanner = new Scanner(System.in);
-
         System.out.println("Enter rectangle side 1: ");
         double side1 = scanner.nextDouble();
         System.out.println("Enter rectangle side 2: ");
         double side2 = scanner.nextDouble();
+        Rectangle rectangle = new Rectangle(side1, side2);
 
-        rectangle.perimetrCalculator(side1, side2);
-        rectangle.areaCalculator(side1, side2);
+        rectangle.perimetrCalculator();
+        rectangle.areaCalculator();
         rectangle.Result();
-
     }
 
 }

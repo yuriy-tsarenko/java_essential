@@ -8,18 +8,21 @@ package com.cbs.java_essential.krauze.homework.lesson1.task1;
 
 
 public class Rectangle {
-    double area, perimeter;
+    double side1, side2;
 
-    public void areaCalculator(double side1, double side2) {
-        area = side1 * side2;
+    public Rectangle(double side1, double side2) {
     }
 
-    public void perimetrCalculator(double side1, double side2) {
-        perimeter = (side1 + side2) * 2;
+    public double areaCalculator() {
+        return side1 * side2;
+    }
+
+    public double perimetrCalculator() {
+        return (side1 + side2) * 2;
     }
 
     public void Result() {
-        System.out.println("Rectangle area = " + area);
-        System.out.println("Rectangle perimeter = " + perimeter);
+        System.out.println("Rectangle area = " + areaCalculator());
+        System.out.println("Rectangle perimeter = " + perimetrCalculator());
     }
 }
