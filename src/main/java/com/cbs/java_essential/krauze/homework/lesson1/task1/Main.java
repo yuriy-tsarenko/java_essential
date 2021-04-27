@@ -12,14 +12,13 @@ public class Main {
         Rectangle rec = new Rectangle();
         Scanner in = new Scanner(System.in);
 
-        System.out.println("Введите длину прямоугольника: ");
+        System.out.println("Enter rectangle width: ");
         double side1 = in.nextDouble();
-        System.out.println("Введите ширину прямоугольника: ");
+        System.out.println("Enter rectangle height: ");
         double side2 = in.nextDouble();
 
         rec.perimeterCalculator(side1, side2);
         rec.areaCalculator(side1, side2);
-
-        rec.viewResult();
+        rec.outResult();
     }
 }

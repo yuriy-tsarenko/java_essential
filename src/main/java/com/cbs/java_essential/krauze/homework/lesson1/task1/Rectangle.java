@@ -8,25 +8,25 @@ package com.cbs.java_essential.krauze.homework.lesson1.task1;
 
 
 public class Rectangle {
-    double side1, side2;
+    double area, perimeter;
 
     public Rectangle() {
     }
 
 
     public double areaCalculator(double side1, double side2) {
-        double area = (side1 * side2);
+        this.area = (side1 * side2);
         return area;
     }
 
 
     public double perimeterCalculator(double side1, double side2) {
-        double perimeter = (side1 + side2) * 2;
+        this.perimeter = (side1 + side2) * 2;
         return perimeter;
     }
 
-    public void viewResult() {
-        System.out.println("Площадь прямоугольника: " + areaCalculator(side1,side2));
-        System.out.println("Периметра прямоугольника: " + perimeterCalculator(side1,side2));
+    public void outResult() {
+        System.out.println("Rectangle area = " + area);
+        System.out.println("Rectangle perimeter = " + perimeter);
     }
 }
