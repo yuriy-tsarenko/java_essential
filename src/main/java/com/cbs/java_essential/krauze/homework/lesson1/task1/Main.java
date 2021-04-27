@@ -9,16 +9,17 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter rectangle side 1: ");
-        double side1 = scanner.nextDouble();
-        System.out.println("Enter rectangle side 2: ");
-        double side2 = scanner.nextDouble();
-        Rectangle rectangle = new Rectangle(side1, side2);
+        Rectangle rec = new Rectangle();
+        Scanner in = new Scanner(System.in);
 
-        rectangle.perimetrCalculator();
-        rectangle.areaCalculator();
-        rectangle.Result();
+        System.out.println("Введите длину прямоугольника: ");
+        double side1 = in.nextDouble();
+        System.out.println("Введите ширину прямоугольника: ");
+        double side2 = in.nextDouble();
+
+        rec.perimeterCalculator(side1, side2);
+        rec.areaCalculator(side1, side2);
+
+        rec.viewResult();
     }
-
 }
