@@ -1,3 +1,6 @@
+//Используя IDEA, создайте проект с пакетом. Создать класс Computer, создать массив объектов Computers размером 5. Далее
+//руками создать 5 экземпляров этого класса и записать в компьютер (используя loop)
+
 package com.cbs.java_essential.dikalo.homework.lesson1.computer;
 
 public class Computer {

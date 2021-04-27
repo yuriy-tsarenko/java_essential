@@ -1,3 +1,8 @@
+//Используя IDEA, создайте проект c пакетом. Требуется: Создать класс с именем Address. В теле класса требуется
+//создать поля: index, country, city, street, house, apartment. Для каждого поля, создать метод с двумя методами
+//доступа (get, set) Создать экземпляр класса Address. В поля экземпляра записать информацию о почтовом адресе.
+//Выведите на экран значения полей, описывающих адрес.
+
 package com.cbs.java_essential.dikalo.homework.lesson1.address;
 
 import java.util.Scanner;
