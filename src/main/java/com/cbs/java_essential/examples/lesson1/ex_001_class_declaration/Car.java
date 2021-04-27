@@ -1,7 +1,6 @@
 package com.cbs.java_essential.examples.lesson1.ex_001_class_declaration;
 
 // Объявление класса (поля, конструктор, методы)
-
 public class Car {
 
     private String model;
