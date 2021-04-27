@@ -8,7 +8,7 @@ public class Book {
 
         author.setAuthor("М.Булгаков");
         title.setTitle("Мастер и Маргарита");
-        content.setContent("Драмма");
+        content.setContent("Роман");
 
         author.show();
         title.show();
