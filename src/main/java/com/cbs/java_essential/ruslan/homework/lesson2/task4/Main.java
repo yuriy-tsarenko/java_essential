@@ -1,7 +1,5 @@
 package com.cbs.java_essential.ruslan.homework.lesson2.task4;
 
-import java.util.List;
-
 /**
  * by Ruslan <svitliy.rk@gmail.com>
  * HomeWork 2 task4
@@ -22,16 +20,25 @@ public class Main {
         Car carWithForParameter = new Car(2008, 400.0, 1200, "Violet");
 
         System.out.println("Год: " + carDefault.getYear() +
-                "; Скорость: " + carDefault.getSpeed());
+                "; Скорость: " + carDefault.getSpeed() +
+                "; Вес : " + carDefault.getWeight() +
+                "; Цвет : " + carDefault.getColor());
 
-        System.out.println("Год: " + carWithOneParameter.getYear());
+        System.out.println("Год: " + carWithOneParameter.getYear() +
+                "; Скорость: " + carWithOneParameter.getSpeed() +
+                "; Вес : " + carWithOneParameter.getWeight() +
+                "; Цвет : " + carWithOneParameter.getColor());
+
 
         System.out.println("Год: " + carWithTwoParameter.getYear() +
-                "; Скорость: " + carWithTwoParameter.getSpeed());
+                "; Скорость: " + carWithTwoParameter.getSpeed() +
+                "; Вес : " + carWithTwoParameter.getWeight() +
+                "; Цвет : " + carWithTwoParameter.getColor());
 
         System.out.println("Год: " + carWithThreeParameter.getYear() +
                 "; Скорость: " + carWithThreeParameter.getSpeed() +
-                "; Вес : " + carWithThreeParameter.getWeight());
+                "; Вес : " + carWithThreeParameter.getWeight() +
+                "; Цвет : " + carWithThreeParameter.getColor());
 
         System.out.println("Год: " + carWithForParameter.getYear() +
                 "; Скорость: " + carWithForParameter.getSpeed() +
@@ -39,4 +46,3 @@ public class Main {
                 "; Цвет : " + carWithForParameter.getColor());
     }
 }
-

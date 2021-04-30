@@ -18,32 +18,34 @@ import lombok.Setter;
 
 public class Car {
 
-    private Integer year;
-    private Double speed;
-    private Integer weight;
+    private int year;
+    private double speed;
+    private int weight;
     private String color;
 
 
     public Car() {
-        this(2004);
+        this.year = 0;
+        this.speed = 0.0;
+        this.weight = 0;
+        this.color = "zero";
     }
-
-    public Car(Integer year) {
-        this(year, 205.0);
-    }
-
-    public Car(Integer year, Double speed) {
-        this(year, speed, 1400);
-    }
-
-    public Car(Integer year, Double speed, Integer weight) {
-        this(year, speed, weight, "Violet");
-    }
-
-    public Car(Integer year, Double speed, Integer weight, String color) {
+    public Car(int year) {
         this.year = year;
+    }
+    public Car(int year, double speed) {
+        this(year);
         this.speed = speed;
+    }
+
+    public Car(int year, double speed, int weight) {
+        this(year, speed);
         this.weight = weight;
+    }
+
+
+    public Car(int year, double speed, int weight, String color) {
+        this(year, speed, weight);
         this.color = color;
     }
 }
