@@ -11,6 +11,7 @@ public class Main {
         // вызов не статического метода или поля из статического контекста запрещено и приводит к ошибке компиляции
         // System.out.println(Main.count);
     }
+
     public static void doSmth() {
         System.out.println("Hello !");
     }

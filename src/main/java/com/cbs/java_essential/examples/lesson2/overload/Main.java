@@ -13,7 +13,9 @@ public class Main {
 
         // вывод параметров объеков
 //        System.out.println("Age: " + animalDefault.getAge() + "; Height: " + animalDefault.getHeight());
-//        System.out.println("Age: " + animalWithOneParameter.getAge() + "; Height: " + animalWithOneParameter.getHeight());
-//        System.out.println("Age: " + animalWithTwoParameters.getAge() + "; Height: " + animalWithTwoParameters.getHeight());
+//        System.out.println("Age: " + animalWithOneParameter.getAge() + "; Height: "
+//        + animalWithOneParameter.getHeight());
+//        System.out.println("Age: " + animalWithTwoParameters.getAge() + "; Height: "
+//        + animalWithTwoParameters.getHeight());
     }
 }
