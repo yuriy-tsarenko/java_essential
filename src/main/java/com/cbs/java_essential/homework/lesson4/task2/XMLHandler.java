@@ -4,6 +4,7 @@ package com.cbs.java_essential.homework.lesson4.task2;
  * Homework 4 task2
  */
 public class XMLHandler extends AbstractHandler{
+
     @Override
     void open() {
         System.out.println("Открыт документ в формате XML");
