@@ -1,9 +1,8 @@
 package com.cbs.java_essential.ruslan.homework.lesson7.task2;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
+ * By Ruslan svitliy.rk@gmail.com
+ * Homework 7 task2
  * Создайте перечислительный тип (enum) Animals, содержащий конструктор, который должен принимать целочисленное значение
  * (возраст животного), и содержать перегруженный метод toString(), который должен возвращать название экземпляра
  * и возраст животного.
@@ -39,7 +38,6 @@ class Main {
         for (Animals animals : Animals.values()) {
             System.out.println(animals.toString());
         }
-
 
     }
 }
