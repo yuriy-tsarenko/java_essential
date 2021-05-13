@@ -45,7 +45,7 @@ class Main {
     public static void main(String[] args) {
 
         for (Vehicles vehicles : Vehicles.values()) {
-            System.out.println(vehicles.toString());
+            System.out.println(vehicles);
         }
     }
 }

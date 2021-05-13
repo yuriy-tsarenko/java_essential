@@ -36,7 +36,7 @@ class Main {
     public static void main(String[] args) {
 
         for (Animals animals : Animals.values()) {
-            System.out.println(animals.toString());
+            System.out.println(animals);
         }
 
     }
