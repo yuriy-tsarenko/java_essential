@@ -3,6 +3,8 @@ package com.cbs.java_essential.ruslan.homework.lesson8.task3;
 import lombok.Getter;
 
 /**
+ * by Ruslan svitliy.rk@gmail.com
+ * Homework8 task 3
  * Требуется: Описать класс с именем Price, содержащую следующие поля:
  * название товара;
  * название магазина, в котором продается товар;

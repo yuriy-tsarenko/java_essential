@@ -9,6 +9,8 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
+ * by Ruslan svitliy.rk@gmail.com
+ * Homework8 task 3
  * Требуется: Описать класс с именем Price, содержащую следующие поля:
  * название товара;
  * название магазина, в котором продается товар;
@@ -76,21 +78,26 @@ public class Main {
         }
 
 
-    boolean isFound = false;
+        boolean isFound = false;
         for (Price price : prices) {
-        String name = price.getShopName();
-        if (name.equals(inputName)) {
-            isFound = true;
-            System.out.print(" Найдено: " + price + ";");
+            String name = price.getShopName();
+            if (name.equals(inputName)) {
+                isFound = true;
+                System.out.print(" Найдено: " + price + ";");
+            }
+        }
+        if (!isFound) {
+            Exception myException = new Exception
+                    ("My Exception ", new RuntimeException());
+            try {
+                throw myException;
+            } catch (Exception e) {
+                log.warn(e);
+                System.out.println("Не найдено.");
+            }
         }
     }
-        if (!isFound) try {
-            throw new Exception();
-        } catch (Exception e) {
-            log.warn(e);
-            System.out.println("Не найдено.");
-        }
-    }
+
     private static void bubbleSortArrayList(List<Price> priceList) {
         Price temp;
         boolean sorted = false;
