@@ -1,6 +1,8 @@
 package com.cbs.java_essential.ruslan.homework.lesson5.task4;
 
 import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 import java.util.ListIterator;
 
 /**
@@ -12,7 +14,7 @@ import java.util.ListIterator;
 public class Main {
     public static void main(String[] args) {
 
-        ArrayList<Integer> list = new ArrayList<>();
+        List<Integer> list = new ArrayList<>();
         list.add(1);
         list.add(2);
         list.add(3);
@@ -22,13 +24,24 @@ public class Main {
         list.add(7);
         list.add(8);
 
-        ListIterator<Integer> plusIterator = list.listIterator();
+        Iterator<Integer> iterator = list.iterator();
+        while (iterator.hasNext()) {
+            Integer integer = iterator.next();
+            System.out.print(integer + " ");
+        }
+        System.out.println();
+        ListIterator<Integer> listIterator = list.listIterator();
 
-        while (plusIterator.hasNext()) {
-            list.set(plusIterator.nextIndex(),
-                    plusIterator.nextIndex() + 2);
+        while (listIterator.hasNext()) {
+            Integer integer = listIterator.next();
+            listIterator.set(integer);
+        }
+        iterator = list.iterator();
+        while (iterator.hasNext()) {
+            int element = iterator.next() + 1;
+            System.out.print(element + " ");
 
-            System.out.println(plusIterator.next());
         }
     }
 }
+
