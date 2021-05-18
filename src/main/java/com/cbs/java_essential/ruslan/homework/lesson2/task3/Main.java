@@ -2,9 +2,8 @@ package com.cbs.java_essential.ruslan.homework.lesson2.task3;
 
 import java.util.List;
 
-
 /**
- * by Ruslan <svitliy.rk@gmail.com>
+ * by Ruslan svitliy.rk@gmail.com
  * HomeWork 2 task3
  * Задание 3
  * (Заново!) Создать класс Машина с полями год(int), скорость(double), вес(int) цвет(String).

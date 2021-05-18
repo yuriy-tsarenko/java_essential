@@ -50,12 +50,11 @@ public class Car {
 
     @Override
     public String toString() {
-        return "Car{" +
-                "year=" + year +
-                ", speed=" + speed +
-                ", weight=" + weight +
-                ", color='" + color + '\'' +
-                '}';
+        return "Car{"
+                + "year=" + year + ", speed="
+                + speed + ", weight="
+                + weight + ", color='"
+                + color + '\'' + '}';
     }
 
 }

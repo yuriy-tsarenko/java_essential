@@ -19,30 +19,35 @@ public class Main {
         Car carWithThreeParameter = new Car(2007, 300.0, 1000);
         Car carWithForParameter = new Car(2008, 400.0, 1200, "Violet");
 
-        System.out.println("Год: " + carDefault.getYear() +
-                "; Скорость: " + carDefault.getSpeed() +
-                "; Вес : " + carDefault.getWeight() +
-                "; Цвет : " + carDefault.getColor());
+        System.out.println("Год: "
+                + carDefault.getYear() + "; Скорость: "
+                + carDefault.getSpeed() + "; Вес : "
+                + carDefault.getWeight() + "; Цвет : "
+                + carDefault.getColor());
 
-        System.out.println("Год: " + carWithOneParameter.getYear() +
-                "; Скорость: " + carWithOneParameter.getSpeed() +
-                "; Вес : " + carWithOneParameter.getWeight() +
-                "; Цвет : " + carWithOneParameter.getColor());
+        System.out.println("Год: "
+                + carWithOneParameter.getYear() + "; Скорость: "
+                + carWithOneParameter.getSpeed() + "; Вес : "
+                + carWithOneParameter.getWeight() + "; Цвет : "
+                + carWithOneParameter.getColor());
 
 
-        System.out.println("Год: " + carWithTwoParameter.getYear() +
-                "; Скорость: " + carWithTwoParameter.getSpeed() +
-                "; Вес : " + carWithTwoParameter.getWeight() +
-                "; Цвет : " + carWithTwoParameter.getColor());
+        System.out.println("Год: "
+                + carWithTwoParameter.getYear() + "; Скорость: "
+                + carWithTwoParameter.getSpeed() + "; Вес : "
+                + carWithTwoParameter.getWeight() + "; Цвет : "
+                + carWithTwoParameter.getColor());
 
-        System.out.println("Год: " + carWithThreeParameter.getYear() +
-                "; Скорость: " + carWithThreeParameter.getSpeed() +
-                "; Вес : " + carWithThreeParameter.getWeight() +
-                "; Цвет : " + carWithThreeParameter.getColor());
+        System.out.println("Год: "
+                + carWithThreeParameter.getYear() + "; Скорость: "
+                + carWithThreeParameter.getSpeed() + "; Вес : "
+                + carWithThreeParameter.getWeight() + "; Цвет : "
+                + carWithThreeParameter.getColor());
 
-        System.out.println("Год: " + carWithForParameter.getYear() +
-                "; Скорость: " + carWithForParameter.getSpeed() +
-                "; Вес : " + carWithForParameter.getWeight() +
-                "; Цвет : " + carWithForParameter.getColor());
+        System.out.println("Год: "
+                + carWithForParameter.getYear() + "; Скорость: "
+                + carWithForParameter.getSpeed() + "; Вес : "
+                + carWithForParameter.getWeight() + "; Цвет : "
+                + carWithForParameter.getColor());
     }
 }
