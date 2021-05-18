@@ -1,3 +1,4 @@
+
 package com.cbs.java_essential.ruslan.homework.lesson8.task3;
 
 import org.apache.log4j.Logger;
@@ -31,8 +32,7 @@ public class Main {
         Price[] prices = new Price[2];
         List<Price> listPrice;
         listPrice = Arrays.asList(prices);
-        BufferedReader reader = new BufferedReader
-                (new InputStreamReader(System.in));
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         int i = 0;
         while (i < prices.length) {
@@ -87,8 +87,7 @@ public class Main {
             }
         }
         if (!isFound) {
-            Exception myException = new Exception
-                    ("My Exception ", new RuntimeException());
+            Exception myException = new Exception("My Exception ", new RuntimeException());
             try {
                 throw myException;
             } catch (Exception e) {

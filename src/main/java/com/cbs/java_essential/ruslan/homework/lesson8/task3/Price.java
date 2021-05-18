@@ -15,7 +15,9 @@ import lombok.Getter;
  * вывод на экран информации о товарах, продающихся в магазине, название которого введено с клавиатуры
  * (если такого магазина нет, вывести исключение).
  */
+
 @Getter
+
 public class Price {
     private String productName;
     private String shopName;
@@ -29,16 +31,19 @@ public class Price {
 
     Price() {
     }
+
     int compareTo(Price price) {
         int result;
         result = (this.shopName).compareTo(price.shopName);
         return result;
     }
+
     @Override
     public String toString() {
         return "Название продукта: "
                 + this.productName + "; Название магазина: "
-                + this.shopName + "; Цена: " + this.price;
+                + this.shopName + "; Цена: "
+                + this.price;
     }
 
 }

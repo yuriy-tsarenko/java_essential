@@ -1,11 +1,14 @@
 package com.cbs.java_essential.ruslan.homework.lesson8.task2;
 
 import lombok.Getter;
+
 /**
  * by Ruslan svitliy.rk@gmail.com
  * Homework 8 task2
  */
+
 @Getter
+
 public class Worker {
 
     private String initials;
@@ -34,8 +37,7 @@ public class Worker {
     void setPosition(String position) throws IllegalArgumentException {
         assert position != null;
         if (position.length() == 0) {
-            throw new IllegalArgumentException(
-                    "Должность не введена, либо введена неверно!");
+            throw new IllegalArgumentException("Должность не введена, либо введена неверно!");
         }
         this.position = position;
     }

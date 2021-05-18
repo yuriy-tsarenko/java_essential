@@ -1,6 +1,7 @@
 package com.cbs.java_essential.ruslan.homework.lesson8.task2;
 
 import org.apache.log4j.Logger;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -34,8 +35,7 @@ public class Main {
         List<Worker> listOfWorker;
         listOfWorker = Arrays.asList(workers);
 
-        BufferedReader reader = new BufferedReader
-                (new InputStreamReader(System.in));
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         int i = 0;
         while (i < workers.length) {
@@ -61,13 +61,7 @@ public class Main {
             } catch (IOException e) {
                 System.out.println(e.getMessage());
             }
-            finally {
-                try {
-                    reader.close();
-                } catch (IOException e) {
-                    System.out.println(e.getMessage());
-                }
-            }
+
             isDateValid(workerNew.getYear());
 
             workers[i] = new Worker(workerNew.getInitials(), workerNew.getPosition(), workerNew.getYear());
@@ -86,7 +80,11 @@ public class Main {
         } catch (NumberFormatException | IOException e) {
             System.out.println(e.getMessage());
             System.out.println("В данном поле могут использоваться только цифры!");
-
+            try {
+                reader.close();
+            } catch (IOException ei) {
+                System.out.println(ei.getMessage());
+            }
         }
         int yearToday = ZonedDateTime.now().getYear();
         System.out.println("Стаж работы  превышает " + number + " лет:");
