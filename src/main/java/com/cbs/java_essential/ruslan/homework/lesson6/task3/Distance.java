@@ -21,9 +21,11 @@ public class Distance {
         double inchByCentimetr(double inch) {
             return inch * 2.5;
         }
+
         double kilometerByMile(double kilometer) {
             return kilometer / 8;
         }
+
         double metertBykilometr(double meter) {
             return meter / 100;
         }
