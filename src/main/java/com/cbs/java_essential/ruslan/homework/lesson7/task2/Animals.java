@@ -26,8 +26,8 @@ public enum Animals {
 
     @Override
     public String toString() {
-        return this.name() +
-                "   years:  " + year;
+        return this.name()
+                + "   years:  " + year;
     }
 
 }

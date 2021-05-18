@@ -34,8 +34,8 @@ public enum Vehicles {
 
     @Override
     public String toString() {
-        return this.name() +
-                "  price: " + cost + " * color: "
+        return this.name()
+                + "  price: " + cost + " * color: "
                 + this.getColor();
     }
 }
