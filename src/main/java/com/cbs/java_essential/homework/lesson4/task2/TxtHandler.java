@@ -10,13 +10,26 @@ package com.cbs.java_essential.homework.lesson4.task2;
  * создания, редактирования, сохранения определенного формата документа.
  */
 
-abstract class AbstractHandler {
+class TxtHandler extends AbstractHandler {
 
-    abstract void open();
+    @Override
+    void open() {
+        System.out.println("Открыт документ в формате TXT");
+    }
 
-    abstract void create();
+    @Override
+    void create() {
+        System.out.println("Создан документ в формате TXT");
+    }
 
-    abstract void change();
+    @Override
+    void change() {
+        System.out.println("Изменён документ в формате TXT");
+    }
 
-    abstract void save();
+    @Override
+    void save() {
+        System.out.println("Сохранён документ в формате TXT");
+
+    }
 }

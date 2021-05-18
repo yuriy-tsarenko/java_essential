@@ -10,13 +10,29 @@ package com.cbs.java_essential.homework.lesson4.task2;
  * создания, редактирования, сохранения определенного формата документа.
  */
 
-abstract class AbstractHandler {
+class DocHandler extends AbstractHandler {
 
-    abstract void open();
+    @Override
+    void open() {
+        System.out.println("Открыт документ в формате DOC");
 
-    abstract void create();
+    }
 
-    abstract void change();
+    @Override
+    void create() {
+        System.out.println("Создан документ в формате DOC");
 
-    abstract void save();
+    }
+
+    @Override
+    void change() {
+        System.out.println("Изменен документ в формате DOC");
+    }
+
+    @Override
+    void save() {
+        System.out.println("Сохранен документ в формате DOC");
+
+
+    }
 }

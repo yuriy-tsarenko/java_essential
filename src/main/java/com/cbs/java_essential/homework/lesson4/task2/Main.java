@@ -10,25 +10,26 @@ package com.cbs.java_essential.homework.lesson4.task2;
  * Написать программу, которая будет выполнять определение документа и для каждого формата должны быть методы открытия,
  * создания, редактирования, сохранения определенного формата документа.
  */
+
 public class Main {
     public static void main(String[] args) {
 
 
-        DOCHandler docHandler = new DOCHandler();
+        DocHandler docHandler = new DocHandler();
         System.out.println(" Работа с форматом DOC");
         docHandler.open();
         docHandler.create();
         docHandler.change();
         docHandler.save();
 
-        TXTHandler txtHandler = new TXTHandler();
+        TxtHandler txtHandler = new TxtHandler();
         System.out.println(" Работа с форматом TXT");
         txtHandler.open();
         txtHandler.create();
         txtHandler.change();
         txtHandler.save();
 
-        XMLHandler xmlHandler = new XMLHandler();
+        XmlHandler xmlHandler = new XmlHandler();
         System.out.println(" Работа с форматом XML: ");
         xmlHandler.open();
         xmlHandler.create();
