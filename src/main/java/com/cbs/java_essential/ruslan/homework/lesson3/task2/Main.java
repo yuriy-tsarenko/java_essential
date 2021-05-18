@@ -1,7 +1,7 @@
 package com.cbs.java_essential.ruslan.homework.lesson3.task2;
 
 /**
- * by Ruslan <svitliy.rk@gmail.com>
+ * by Ruslan svitliy.rk@gmail.com
  * HomeWork 3 task2
  * Задание 2
  * Используя IntelliJ IDEA, создайте проект. Требуется: Создать класс, представляющий учебный класс ClassRoom.
@@ -12,6 +12,7 @@ package com.cbs.java_essential.ruslan.homework.lesson3.task2;
  * что пользователь может передать 2 или 3 аргумента. Выведите информацию о том, как все ученики экземпляра класса
  * ClassRoom умеют учиться, читать, писать, отдыхать.
  */
+
 public class Main {
 
     public static void main(String[] args) {
@@ -33,25 +34,25 @@ public class Main {
         ExcelentPupil excelentPupil = new ExcelentPupil();
         BadPupil badPupil = new BadPupil();
 
-        student1.Show();
+        student1.indicate();
         goodPupil.read();
         excelentPupil.write();
         excelentPupil.study();
         badPupil.relax();
 
-        student2.Show();
+        student2.indicate();
         excelentPupil.read();
         goodPupil.write();
         goodPupil.study();
         badPupil.relax();
 
-        student3.Show();
+        student3.indicate();
         badPupil.study();
         badPupil.read();
         badPupil.write();
         excelentPupil.relax();
 
-        student4.Show();
+        student4.indicate();
         goodPupil.study();
         excelentPupil.read();
         excelentPupil.write();

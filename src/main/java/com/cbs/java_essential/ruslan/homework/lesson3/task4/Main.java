@@ -1,6 +1,11 @@
 package com.cbs.java_essential.ruslan.homework.lesson3.task4;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
 /**
- * by Ruslan <svitliy.rk@gmail.com>
+ * by Ruslan svitliy.rk@gmail.com
  * HomeWork 3 task4
  * Создайте класс DocumentWorker. В теле класса создайте три метода openDocument(), editDocument(), saveDocument().
  * В тело каждого из методов добавьте вывод на экран соответствующих строк: "Документ открыт",
@@ -16,7 +21,6 @@ package com.cbs.java_essential.ruslan.homework.lesson3.task4;
  */
 
 
-import java.io.*;
 
 public class Main {
     public static void main(String[] args)  {
@@ -26,8 +30,7 @@ public class Main {
 
         int inputVersionKey = -1;
 
-        BufferedReader bufferedReaderKey = new BufferedReader
-                (new InputStreamReader(System.in));
+        BufferedReader bufferedReaderKey = new BufferedReader(new InputStreamReader(System.in));
         System.out.print("Введите ключ продукта: ");
         try {
             inputVersionKey = Integer.parseInt(bufferedReaderKey.readLine());

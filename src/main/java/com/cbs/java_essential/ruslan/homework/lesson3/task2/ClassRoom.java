@@ -1,10 +1,13 @@
 package com.cbs.java_essential.ruslan.homework.lesson3.task2;
 
+import lombok.Getter;
+
+
 /**
- * by Ruslan <svitliy.rk@gmail.com>
+ * by Ruslan svitliy.rk@gmail.com
  * HomeWork 3 task2
  */
-import lombok.Getter;
+
 
 @Getter
 
@@ -27,6 +30,7 @@ class ClassRoom {
         pupil.study();
         pupil.write();
     }
+
     static ClassRoom randomStudent() {
 
         ClassRoom students = new ClassRoom();
@@ -40,7 +44,7 @@ class ClassRoom {
     }
 
 
-    void Show() {
+    void indicate() {
         System.out.printf("%8s %10s",getName(), getSurname() + "\n");
     }
 
