@@ -1,4 +1,4 @@
-package com.cbs.java_essential.homework.lesson4.task2;
+package com.cbs.java_essential.ruslan.homework.lesson4.task2;
 /**
  * by Ryslan svitliy.rk@gmail.com
  * Homework 4 task2
@@ -10,25 +10,26 @@ package com.cbs.java_essential.homework.lesson4.task2;
  * создания, редактирования, сохранения определенного формата документа.
  */
 
-class XmlHandler extends AbstractHandler {
+class TxtHandler extends AbstractHandler {
 
     @Override
     void open() {
-        System.out.println("Открыт документ в формате XML");
+        System.out.println("Открыт документ в формате TXT");
     }
 
     @Override
     void create() {
-        System.out.println("Создан документ в формате XML");
+        System.out.println("Создан документ в формате TXT");
     }
 
     @Override
     void change() {
-        System.out.println("Изменён документ в формате XML");
+        System.out.println("Изменён документ в формате TXT");
     }
 
     @Override
     void save() {
-        System.out.println("Сохранён документ в формате XML");
+        System.out.println("Сохранён документ в формате TXT");
+
     }
 }
