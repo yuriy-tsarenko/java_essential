@@ -4,7 +4,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 /**
- * by Ruslan <svitliy.rk@gmail.com>
+ * by Ruslan svitliy.rk@gmail.com
  * HomeWork 2 task4
  * Задание 4
  * (Заново!) Создать класс Машина с полями год(int), скорость(double), вес(int) цвет(String).
@@ -24,27 +24,29 @@ public class Car {
     private String color;
 
 
-    public Car() {
+   public Car() {
         this.year = 0;
         this.speed = 0.0;
         this.weight = 0;
         this.color = "zero";
     }
-    public Car(int year) {
+
+   public Car(int year) {
         this.year = year;
     }
-    public Car(int year, double speed) {
+
+   public Car(int year, double speed) {
         this(year);
         this.speed = speed;
     }
 
-    public Car(int year, double speed, int weight) {
+   public Car(int year, double speed, int weight) {
         this(year, speed);
         this.weight = weight;
     }
 
 
-    public Car(int year, double speed, int weight, String color) {
+   public Car(int year, double speed, int weight, String color) {
         this(year, speed, weight);
         this.color = color;
     }
