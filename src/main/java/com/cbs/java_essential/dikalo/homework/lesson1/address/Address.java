@@ -1,8 +1,12 @@
 package com.cbs.java_essential.dikalo.homework.lesson1.address;
 
 public class Address {
-    private static int index, house, apartment;
-    private static String country, city, street;
+    private static int index;
+    private static int house;
+    private static int apartment;
+    private static String country;
+    private static String city;
+    private static String street;
 
 
     public static int getIndex() {
