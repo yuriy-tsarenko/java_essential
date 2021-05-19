@@ -1,4 +1,4 @@
-package com.cbs.java_essential.homework.lesson4.task2;
+package com.cbs.java_essential.ruslan.homework.lesson4.task2;
 
 /**
  * by Ryslan svitliy.rk@gmail.com
