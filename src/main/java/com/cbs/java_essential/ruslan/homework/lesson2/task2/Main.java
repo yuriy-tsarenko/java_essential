@@ -1,7 +1,7 @@
 package com.cbs.java_essential.ruslan.homework.lesson2.task2;
 
 /**
- * by Ruslan <svitliy.rk@gmail.com>
+ * by Ruslan svitliy.rk@gmail.com
  * HomeWork 2 task2
  * Задание 2
  * Создать класс Машина с полями год(int), цвет(String).

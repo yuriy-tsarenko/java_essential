@@ -1,16 +1,16 @@
 package com.cbs.java_essential.ruslan.homework.lesson2.task3;
 
 import java.util.List;
-import java.util.concurrent.Callable;
 
 /**
- * by Ruslan <svitliy.rk@gmail.com>
+ * by Ruslan svitliy.rk@gmail.com
  * HomeWork 2 task3
  * Задание 3
  * (Заново!) Создать класс Машина с полями год(int), скорость(double), вес(int) цвет(String).
  * Создать конструктор по умолчанию, конструктор с 1-м параметром, 2-я, 3-я, 4-я.
  * Перегрузить конструкторы. Создать класс Main, в котором создать экземпляры класса Машина с разными параметрами.
  */
+
 public class Main {
     public static void main(String[] args) {
 

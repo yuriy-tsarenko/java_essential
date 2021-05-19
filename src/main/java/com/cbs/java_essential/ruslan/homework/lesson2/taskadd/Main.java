@@ -3,7 +3,7 @@ package com.cbs.java_essential.ruslan.homework.lesson2.taskadd;
 import java.util.Scanner;
 
 /**
- * by Ruslan <svitliy.rk@gmail.com>
+ * by Ruslan svitliy.rk@gmail.com
  * HomeWork 2 taskadd
  * Дополнительное задание
  * Создать класс MyArea, в нем объявить константу PI = 3.14 и статический метод areaOfCircle,
