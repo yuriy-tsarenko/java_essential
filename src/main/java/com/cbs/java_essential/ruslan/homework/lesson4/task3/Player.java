@@ -1,4 +1,4 @@
-package com.cbs.java_essential.homework.lesson4.task3;
+package com.cbs.java_essential.ruslan.homework.lesson4.task3;
 /**
  * by Ruslan svitliy.rk@gmail.com
  * Homework4 task3
@@ -8,7 +8,7 @@ package com.cbs.java_essential.homework.lesson4.task3;
  * Написать программу, которая выполняет проигрывание и запись.
  */
 
-public class Player implements Playable, Recodable {
+public class Player implements com.cbs.java_essential.homework.lesson4.task3.Playable, com.cbs.java_essential.homework.lesson4.task3.Recodable {
 
     @Override
     public void play() {
