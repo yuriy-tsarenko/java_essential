@@ -10,6 +10,7 @@ package com.cbs.java_essential.ruslan.homework.lesson4.task2;
  * Написать программу, которая будет выполнять определение документа и для каждого формата должны быть методы открытия,
  * создания, редактирования, сохранения определенного формата документа.
  */
+
 public class Main {
     public static void main(String[] args) {
 
