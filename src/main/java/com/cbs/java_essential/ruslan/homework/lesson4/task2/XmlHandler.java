@@ -1,9 +1,10 @@
 package com.cbs.java_essential.ruslan.homework.lesson4.task2;
+
 /**
  * by Ryslan svitliy.rk@gmail.com
  * Homework 4 task2
  */
-public class XMLHandler extends AbstractHandler{
+public class XmlHandler extends AbstractHandler {
 
     @Override
     void open() {

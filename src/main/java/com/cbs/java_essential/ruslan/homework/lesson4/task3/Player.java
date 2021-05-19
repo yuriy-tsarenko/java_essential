@@ -1,14 +1,14 @@
 package com.cbs.java_essential.ruslan.homework.lesson4.task3;
+
 /**
  * by Ruslan svitliy.rk@gmail.com
  * Homework4 task3
- *
  */
 public class Player implements Playable, Recodable {
 
     @Override
     public void play() {
-       System.out.println("Play");
+        System.out.println("Play");
     }
 
     @Override
