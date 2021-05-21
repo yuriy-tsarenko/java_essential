@@ -7,19 +7,19 @@ public class Car {
     String colour;
 
     public Car() {
-        this(2000,120.0,3,"Black");
+        this(2000, 120.0, 3, "Black");
     }
 
     public Car(int year) {
-        this(year, 120.0,3,"Black");
+        this(year, 120.0, 3, "Black");
     }
 
     public Car(int year, double speed) {
-        this(year, speed,3,"Black");
+        this(year, speed, 3, "Black");
     }
 
     public Car(int year, double speed, int weight) {
-        this(year, speed, weight,"Black");
+        this(year, speed, weight, "Black");
     }
 
     public Car(int year, double speed, int weight, String colour) {
