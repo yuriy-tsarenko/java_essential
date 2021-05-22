@@ -13,9 +13,11 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
+
         Animal lion = new Animal("lion", 9, true);
         Animal cat = new Animal("Cat", 2, true);
         Animal snail = new Animal("Snail", 1, false);
+
         List<Animal> animals = new ArrayList<>();
         animals.add(lion);
         animals.add(cat);
