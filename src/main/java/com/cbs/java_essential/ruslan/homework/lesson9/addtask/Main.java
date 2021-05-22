@@ -1,6 +1,8 @@
 package com.cbs.java_essential.ruslan.homework.lesson9.addtask;
 
 /*
+by Ruslan svitliy@gmail.com
+Homework9, add task
 Создать класс Animal с именем String, возрастом int, хвостом Boolean.
 В классе переопределить метод toString, что бы вывод был сдедующим «Имя: Васька, возраст: 45, хвост: нет».
 В классе Animal переопределить методы equals & hashCode.

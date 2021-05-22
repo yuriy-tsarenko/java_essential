@@ -1,6 +1,7 @@
 package com.cbs.java_essential.ruslan.homework.lesson9.task2;
 
 /**
+ * by Ruslan svitliy@gmail.com
  * Задание 2
  * Создать классы: 1) Основной класс Device (manufacturer(String), price(float),
  * serialNumber(String)); 2) Сабкалсс Monitor (resolutionX(int), resolutionY(int)) and EthernetAdapter (speed (int),

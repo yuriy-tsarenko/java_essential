@@ -1,14 +1,13 @@
-package com.cbs.java_essential.ruslan.homework.lesson9.task3;
+package com.cbs.java_essential.ruslan.homework.lesson9.task4;
 
 /**
- * by Ruslan svitliy@gmail.com
- * Задание 3
- * Смотреть задание 2. В обоих классах переопределить метод toString, что бы вывод был следующим:
- * Device: manufacturer =Samsung, price=120, serialNumber=AB1234567CD Monitor: manufacturer =Samsung, price=120,
- * serialNumber=AB1234567CD, X=1280,Y=1024
+ * by Ruslan svitliy.rk@gmail.com
+ * Homework9 task4
+ *  Смотреть задание 2. Переопределить методы equals & hashCode в каждом классе.
+ * Создать класс Main, в котором создать объекты классов и продемонстрировать переопределенные методы.
  */
 
-public class Device {
+class Device {
     private String manufacturer;
     private float price;
     private String serialNumber;
@@ -37,6 +36,16 @@ public class Device {
                 + "manufacture = " + getManufacturer()
                 + ", price = " + getPrice()
                 + ", serialNumber = " + getSerialNumber();
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
+
+    @Override
+    public int hashCode() {
+        return super.hashCode();
     }
 }
 

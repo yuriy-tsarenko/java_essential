@@ -1,6 +1,7 @@
 package com.cbs.java_essential.ruslan.homework.lesson9.task3;
 
 /**
+ * by Ruslan svitliy@gmail.com
  * Задание 3
  * Смотреть задание 2. В обоих классах переопределить метод toString, что бы вывод был следующим:
  * Device: manufacturer =Samsung, price=120, serialNumber=AB1234567CD Monitor: manufacturer =Samsung, price=120,
@@ -13,7 +14,7 @@ public class Main {
     public static void main(String[] args) {
         Device device = new Device("Samsung", 120, "AB1234567CD");
         Device monitor = new Monitor("Samsung", 120, "AB1234567CD", 1280, 1024);
-        System.out.println(device.toString());
-        System.out.println(monitor.toString());
+        System.out.println(device);
+        System.out.println(monitor);
     }
 }
