@@ -3,31 +3,39 @@ package com.cbs.java_essential.return13.homework.lesson3;
 //        Задание 2
 //       Используя IntelliJ IDEA, создайте проект.
 //       Требуется: Создать класс, представляющий учебный класс ClassRoom.
-//       Создайте класс ученик Pupil. В теле класса создайте методы void study(), void read(), void write(), void relax().
-//       Создайте 3 производных класса ExcelentPupil, GoodPupil, BadPupil от класса базового класса Pupil и переопределите каждый из методов, в зависимости от успеваемости ученика.
-//       Конструктор класса ClassRoom принимает аргументы типа Pupil, класс должен состоять из 4 учеников. Предусмотрите возможность того, что пользователь может передать 2 или 3 аргумента.
+//       Создайте класс ученик Pupil.
+//       В теле класса создайте методы void study(), void read(), void write(), void relax().
+//       Создайте 3 производных класса ExcelentPupil, GoodPupil,
+//       BadPupil от класса базового класса Pupil и переопределите каждый из методов,
+//       в зависимости от успеваемости ученика.
+//       Конструктор класса ClassRoom принимает аргументы типа Pupil,
+//       класс должен состоять из 4 учеников. Предусмотрите возможность того,
+//       что пользователь может передать 2 или 3 аргумента.
 //       Выведите информацию о том, как все ученики экземпляра класса ClassRoom умеют учиться, читать, писать, отдыхать.
 
 class ClassRoom {
     ClassRoom(Pupil pupil) {
+        pupil.write();
+        pupil.study();
         pupil.read();
         pupil.relax();
-        pupil.study();
-        pupil.write();
-
     }
+}
 
+class Main32 {
     public static void main(String[] args) {
         ClassRoom pupil = new ClassRoom(new ExcellentPupil());
-        ClassRoom pupil1 = new ClassRoom(new GoodPupil());
-        ClassRoom pupil2 = new ClassRoom(new BadPupil());
-        ClassRoom pupil3 = new ClassRoom(new Pupil());
+        ClassRoom pupil2 = new ClassRoom(new GoodPupil());
+        ClassRoom pupil3 = new ClassRoom(new BadPupil());
+        ClassRoom pupil4 = new ClassRoom(new Pupil());
+
 
     }
-
 }
 
 class Pupil {
+
+
     void study() {
         System.out.println("pupil is study");
     }
