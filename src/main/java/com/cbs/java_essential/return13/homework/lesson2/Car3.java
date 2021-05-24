@@ -12,54 +12,62 @@ public class Car3 {
     int weight;
     String color;
 
-    Car3(){
-        this.year=1;
-        this.speed=100;
-        this.weight=500;
-        this.color="white";
+    Car3() {
+        this.year = 1;
+        this.speed = 100;
+        this.weight = 500;
+        this.color = "white";
     }
 
-    Car3(int year){
+    Car3(int year) {
 
         this();
-        this.year=year;
+        this.year = year;
     }
 
-    Car3(int year, double speed){
+    Car3(int year, double speed) {
         this(year);
-        this.speed=speed;
-    }
-    Car3(int year, double speed, int weight){
-        this(year, speed);
-        this.year=year;
-        this.weight=weight;
+        this.speed = speed;
     }
 
-    Car3(int year, double speed, int weight, String color){
-        this.year=year;
-        this.speed=speed;
-        this.weight=weight;
-        this.color=color;
+    Car3(int year, double speed, int weight) {
+        this(year, speed);
+        this.year = year;
+        this.weight = weight;
+    }
+
+    Car3(int year, double speed, int weight, String color) {
+        this.year = year;
+        this.speed = speed;
+        this.weight = weight;
+        this.color = color;
     }
 
     @Override
     public String toString() {
-        return "Car3{" +
-                "year=" + year +
-                ", speed=" + speed +
-                ", weight=" + weight +
-                ", color='" + color + '\'' +
+        return "Car3{"
+                +
+                "year=" + year
+                +
+                ", speed=" + speed
+                +
+                ", weight=" + weight
+                +
+                ", color='" + color
+                + '\''
+                +
                 '}';
     }
 }
+
 //Constructor
-class Main3{
+class Main3 {
     public static void main(String[] args) {
-        Car3 c1=new Car3();
-        Car3 c2=new Car3(2);
-        Car3 c3=new Car3(4,140);
-        Car3 c4=new Car3(6,170,700);
-        Car3 c5=new Car3(10, 210, 900,"red");
+        Car3 c1 = new Car3();
+        Car3 c2 = new Car3(2);
+        Car3 c3 = new Car3(4, 140);
+        Car3 c4 = new Car3(6, 170, 700);
+        Car3 c5 = new Car3(10, 210, 900, "red");
         System.out.println(c1.toString());
         System.out.println(c2.toString());
         System.out.println(c3.toString());
