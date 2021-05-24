@@ -22,10 +22,18 @@ public class Vehicle {
 
     @Override
     public String toString() {
-        return "Vehicle{" +
-                "speed=" + speed +
-                ", year=" + year +
-                ", price=" + price +
+        return "Vehicle{"
+                +
+                "speed="
+                + speed
+                +
+                ", year="
+                +
+                year
+                +
+                ", price="
+                + price
+                +
                 '}';
     }
 }
@@ -42,9 +50,14 @@ class Plane extends Vehicle {
 
     @Override
     public String toString() {
-        return "Plane{" +
-                "height=" + height +
-                ", passenger=" + passenger +
+        return "Plane{"
+                +
+                "height="
+                + height
+                +
+                ", passenger="
+                + passenger
+                +
                 '}';
     }
 }
@@ -68,9 +81,15 @@ class Ship extends Vehicle {
 
     @Override
     public String toString() {
-        return "Ship{" +
-                "passenger=" + passenger +
-                ", steamerHomePort='" + steamerHomePort + '\'' +
+        return "Ship{"
+                +
+                "passenger="
+                + passenger
+                +
+                ", steamerHomePort='"
+                + steamerHomePort
+                + '\''
+                +
                 '}';
     }
 }
