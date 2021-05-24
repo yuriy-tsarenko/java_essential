@@ -2,19 +2,18 @@ package com.cbs.java_essential.examples.lesson10.memory;
 
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
 public class Reader {
-    public List<Integer> readFile() {
+    public byte[] readFile() {
         AppContext context = new AppContext();
-        List<Integer> buffer = new ArrayList<>();
-        int flag;
+        byte[] buffer = new byte[0];
         try {
-            FileInputStream stream = new FileInputStream("D:\\IT\\IdeaProjects\\java_essential\\src\\main\\java\\com\\cbs\\java_essential\\examples\\lesson10\\memory\\duke1.png");
-            while (-1 != (flag = stream.read())) {
-                buffer.add(flag);
+            FileInputStream stream = new FileInputStream(context.getFilePath());
+            buffer = new byte[stream.available()];
+            for (int i = 0; i < stream.available(); i++) {
+                buffer[i] = (byte) stream.read();
             }
+            stream.close();
         } catch (IOException e) {
             e.printStackTrace();
         }

@@ -15,9 +15,9 @@ class MyGenerics<S, J> {
     }
 }
 
-class Custom<TYPE1, TYPE2> {
-    public TYPE1 field;
-    public TYPE2 value;
+class Custom<T, R> {
+    public T field;
+    public R value;
 
 }
 

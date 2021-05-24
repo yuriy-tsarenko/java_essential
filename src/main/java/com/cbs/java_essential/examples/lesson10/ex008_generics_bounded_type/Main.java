@@ -18,7 +18,8 @@ class Derived implements Interface1, Interface2<Integer> {
     /* ... */
 }
 
-// T extends Interface1 и T extends Interface2<Object>  -  Аргумент типа должен являться или реализовывать указанный интерфейс.
+// T extends Interface1 и T extends Interface2<Object>  -
+// Аргумент типа должен являться или реализовывать указанный интерфейс.
 // Ограничивающий интерфейс также может быть универсальным.
 
 class MyClass1<T extends Interface1> { /* ... */
