@@ -21,9 +21,6 @@ public enum Animals {
     }
 
 
-}
-
-class Main {
     public static void main(String[] args) {
         Animals animals = Animals.CAT;
         Animals animals1 = Animals.DOG;

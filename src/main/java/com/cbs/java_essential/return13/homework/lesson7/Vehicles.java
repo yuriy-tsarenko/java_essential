@@ -25,10 +25,8 @@ public enum Vehicles {
     public String toString() {
         return this.name() + " price = " + price + "; color = " + this.getColor();
     }
-}
 
 
-class Main5 {
     public static void main(String[] args) {
         Vehicles vehicles = Vehicles.BMW;
         Vehicles vehicles1 = Vehicles.AUDI;
