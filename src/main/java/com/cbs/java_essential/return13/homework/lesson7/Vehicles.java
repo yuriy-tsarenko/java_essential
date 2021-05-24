@@ -33,8 +33,8 @@ class Main5 {
         Vehicles vehicles = Vehicles.BMW;
         Vehicles vehicles1 = Vehicles.AUDI;
         Vehicles vehicles2 = Vehicles.VAZ;
-        System.out.println(vehicles.BMW);
-        System.out.println(vehicles.AUDI);
-        System.out.println(Vehicles.VAZ);
+        System.out.println(vehicles);
+        System.out.println(vehicles1);
+        System.out.println(vehicles2);
     }
 }

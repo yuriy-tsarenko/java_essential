@@ -6,7 +6,6 @@ package com.cbs.java_essential.return13.homework.lesson7;
 // и содержать перегруженный метод toString(),
 // который должен возвращать название экземпляра и возраст животного.
 
-import com.cbs.java_essential.return13.homework.lesson5.Animal;
 
 public enum Animals {
     ZUBR(15), DOG(5), CAT(3);
@@ -29,9 +28,9 @@ class Main {
         Animals animals = Animals.CAT;
         Animals animals1 = Animals.DOG;
         Animals animals2 = Animals.ZUBR;
-        System.out.println(animals.toString());
-        System.out.println(animals1.toString());
-        System.out.println(animals2.toString());
+        System.out.println(animals);
+        System.out.println(animals1);
+        System.out.println(animals2);
     }
 }
 
