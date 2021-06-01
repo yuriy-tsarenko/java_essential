@@ -30,13 +30,33 @@ public class Animal {
 
     @Override
     public boolean equals(Object obj) {
-        if (this == obj) return true;
-        if (obj == null || getClass() != obj.getClass()) return false;
-        Animal animal = (Animal) obj;
-        return Objects.equals(petName, animal.petName) &&
-                Objects.equals(petAge, animal.petAge) &&
-                Objects.equals(tail, animal.tail);
+        if (this == obj) {
+            return true;
+        }
+
+        if (obj == null) {
+            return false;
+        }
+
+        if (this.getClass() != obj.getClass()) {
+            return false;
+        }
+
+        final Animal other = (Animal) obj;
+
+        if (!Objects.equals(this.petName, other.petName)) {
+            return false;
+        }
+
+        if (!Objects.equals(this.petAge, other.petAge)) {
+            return false;
+        }
+        return true;
     }
+
+
+
+
 
     @Override
     public String toString() {
@@ -47,9 +67,11 @@ public class Animal {
                 + " \n ";
     }
 
-    private static String conversion(boolean bool)
-    {
-        if(bool) return "да";
-        else return "нет";
+    private static String conversion(boolean bool) {
+        if (bool) {
+            return "да";
+        } else {
+            return "нет";
+        }
     }
 }
