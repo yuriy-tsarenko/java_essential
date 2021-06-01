@@ -3,8 +3,10 @@ package com.cbs.java_essential.return13.homework.lesson3;
 //Задание 3
 //        Используя IntelliJ IDEA, создайте проект. Требуется: Создать класс Vehicle.
 //        В теле класса создайте поля: координаты и параметры средств передвижения (цена, скорость, год выпуска).
-//        Создайте 3 производных класса Plane, Саг и Ship. Для класса Plane должна быть определена высота и количество пассажиров.
-//        Для класса Ship – количество пассажиров и порт приписки. Написать программу, которая выводит на экран информацию о каждом средстве передвижения.
+//        Создайте 3 производных класса Plane, Саг и Ship. Для класса Plane должна быть определена высота и количество
+//        пассажиров.
+//        Для класса Ship – количество пассажиров и порт приписки. Написать программу, которая выводит на экран
+//        информацию о каждом средстве передвижения.
 public class Vehicle {
     private double speed;
     private int year;
@@ -19,11 +21,11 @@ public class Vehicle {
 
     @Override
     public String toString() {
-        return "Vehicle{" +
-                "speed=" + speed +
-                ", year=" + year +
-                ", price=" + price +
-                '}';
+        return "Vehicle{"
+                + "speed="
+                + speed + ", year="
+                + year + ", price="
+                + price + '}';
     }
 }
 
@@ -39,10 +41,11 @@ class Plane extends Vehicle {
 
     @Override
     public String toString() {
-        return "Plane{" +
-                "height=" + height +
-                ", passenger=" + passenger +
-                '}';
+        return "Plane{"
+                + "height=" + height
+                + ", passenger="
+                + passenger
+                + '}';
     }
 }
 
@@ -65,10 +68,11 @@ class Ship extends Vehicle {
 
     @Override
     public String toString() {
-        return "Ship{" +
-                "passenger=" + passenger +
-                ", steamerHomePort='" + steamerHomePort + '\'' +
-                '}';
+        return "Ship{"
+                + "passenger="
+                + passenger + ", steamerHomePort='"
+                + steamerHomePort
+                + '\'' + '}';
     }
 }
 
