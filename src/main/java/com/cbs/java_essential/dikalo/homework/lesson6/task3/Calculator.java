@@ -1,4 +1,4 @@
-package com.cbs.java_essential.examples.dikalo.homework.lesson6.task3;
+package com.cbs.java_essential.dikalo.homework.lesson6.task3;
 
 public class Calculator {
     static int FirstNumber;

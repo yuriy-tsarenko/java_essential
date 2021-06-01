@@ -1,4 +1,4 @@
-package com.cbs.java_essential.examples.dikalo.homework.lesson6.task1;
+package com.cbs.java_essential.dikalo.homework.lesson6.task1;
 
 public class Vehicle {
     public void print() {

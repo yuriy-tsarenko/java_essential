@@ -1,7 +1,7 @@
 //Создать класс Calculator, с методами для выполнения основных арифметических операций. Написать программу, которая
 //выводит на экран основные арифметические операции.
 
-package com.cbs.java_essential.examples.dikalo.homework.lesson6.task3;
+package com.cbs.java_essential.dikalo.homework.lesson6.task3;
 
 import java.util.Scanner;
 

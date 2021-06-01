@@ -2,7 +2,7 @@
 //статический класс Converter с методами, которые будут конвертировать расстояние в разные единицы измерения
 //(к примеру, из метров в километры, из километров в мили, и так далее).
 
-package com.cbs.java_essential.examples.dikalo.homework.lesson6.task2;
+package com.cbs.java_essential.dikalo.homework.lesson6.task2;
 
 import java.util.Scanner;
 

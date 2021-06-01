@@ -1,4 +1,4 @@
-package com.cbs.java_essential.examples.dikalo.homework.lesson6.task2;
+package com.cbs.java_essential.dikalo.homework.lesson6.task2;
 
 public class Distance {
     static double distance;
