@@ -11,6 +11,21 @@ public class Car2 {
     String color;
     double weight;
 
+    @Override
+    public String toString() {
+        return "Car2{"
+                +
+                "year=" + year
+                +
+                ", speed=" + speed
+                +
+                ", color='" + color
+                + '\''
+                +
+                ", weight=" + weight
+                +
+                '}';
+    }
 
     Car2() {
     }
@@ -35,16 +50,6 @@ public class Car2 {
         this.speed = speed;
         this.color = color;
         this.weight = weight;
-    }
-
-    @Override
-    public String toString() {
-        return "Car2{" +
-                "year=" + year +
-                ", speed=" + speed +
-                ", color='" + color + '\'' +
-                ", weight=" + weight +
-                '}';
     }
 
 }
