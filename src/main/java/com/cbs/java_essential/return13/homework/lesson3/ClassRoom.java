@@ -47,7 +47,7 @@ class Pupil {
 
     void write() {
         System.out.println("pupil is writing");
-        System.out.println("___________________________________________________________________");
+        System.out.println("___________________________________________________________");
     }
 
     void relax() {
