@@ -20,7 +20,7 @@ abstract class AbstractHandler {
     abstract void save();
 }
 
-class XMLHandler extends AbstractHandler {
+class XmlHandler extends AbstractHandler {
     @Override
     void open() {
         System.out.println("XML document opening");
@@ -42,7 +42,7 @@ class XMLHandler extends AbstractHandler {
     }
 }
 
-class TXTHandler extends AbstractHandler {
+class TxtHandler extends AbstractHandler {
     @Override
     void open() {
         System.out.println("TXT document opening");
@@ -64,7 +64,7 @@ class TXTHandler extends AbstractHandler {
     }
 }
 
-class DOCHandler extends AbstractHandler {
+class DocHandler extends AbstractHandler {
     @Override
     void open() {
         System.out.println("DOC document opening");
@@ -94,26 +94,27 @@ class Main3 {
 
         switch (s) {
             case "doc.xml":
-                AbstractHandler docXml = new XMLHandler();
+                AbstractHandler docXml = new XmlHandler();
                 docXml.change();
                 docXml.create();
                 docXml.save();
                 docXml.open();
                 break;
             case "doc.txt":
-                AbstractHandler docTxt = new TXTHandler();
+                AbstractHandler docTxt = new TxtHandler();
                 docTxt.open();
                 docTxt.save();
                 docTxt.create();
                 docTxt.change();
                 break;
             case "doc.doc":
-                AbstractHandler docDoc = new DOCHandler();
+                AbstractHandler docDoc = new DocHandler();
                 docDoc.change();
                 docDoc.create();
                 docDoc.save();
                 docDoc.open();
                 break;
+            default:
         }
 
 
