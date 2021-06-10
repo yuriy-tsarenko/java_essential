@@ -5,7 +5,8 @@ import java.util.ArrayList;
 import java.util.ListIterator;
 
 //Задание 4 Используя Intelij IDEA создать проект, пакет.
-// Создать класс Main, создать список целых чисел и используя ListIterator пройтись по списку и увеличить значения на 1;
+// Создать класс Main,
+// создать список целых чисел и используя ListIterator пройтись по списку и увеличить значения на 1;
 
 
 public class Main {
